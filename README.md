@@ -32,7 +32,7 @@ A beautiful and modern web application that helps you create personalized Eid gr
 
 2. Create and activate a virtual environment:
    ```bash
-   python -m venv .venv
+   uv venv
    # On Windows:
    .venv\Scripts\activate
    # On Unix or MacOS:
@@ -41,7 +41,7 @@ A beautiful and modern web application that helps you create personalized Eid gr
 
 3. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+  uv add -r requirements.txt
    ```
 
 4. Set up environment variables:
@@ -89,21 +89,7 @@ A beautiful and modern web application that helps you create personalized Eid gr
    - Preview the card
    - Download as PDF
 
-## 📁 Project Structure
 
-```
-eid-card/
-├── main.py           # Main Streamlit application
-├── agents.py         # AI message generation
-├── tools.py          # Utility functions
-├── utils/
-│   ├── __init__.py  # Image handling
-│   ├── font_utils.py # Font management
-│   └── pdf_generator.py # PDF generation
-├── fonts/            # Font files
-├── requirements.txt  # Dependencies
-└── README.md        # Documentation
-```
 
 ## 🛠️ Technologies Used
 
@@ -121,14 +107,16 @@ Contributions are welcome! Feel free to:
 - Suggest features
 - Submit pull requests
 
-## 📝 License
-
-MIT License - See [LICENSE](LICENSE) for details
 
 ## 👩‍💻 Author
 
 **Ayesha Mughal**
 - GitHub: [@CodeVoyager007](https://github.com/CodeVoyager007)
+- Medium: [@ayeshamughal21](https://medium.com/@ayeshamughal21)
+- Twitter: [@Ayesha_Mughal21](https://x.com/Ayesha_Mughal21)
+- LinkedIn: [Ayesha Mughal](https://www.linkedin.com/in/ayesha-mughal-260264342)
+- Hashnode: [@mughalsyntax](https://hashnode.com/@mughalsyntax)
+
 
 ## 🙏 Acknowledgments
 
